@@ -2,7 +2,7 @@ class dog
 
   @@all = []
 
-  def initialize(name='', breed='', age=nil)
+  def initialize(name='', breed='', age=0)
     @name = name
     @breed = breed
     @age = age
